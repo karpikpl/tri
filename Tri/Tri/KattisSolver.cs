@@ -9,7 +9,7 @@ namespace Tri
         private readonly StreamWriter _writer;
         private readonly Solver _solver;
 
-        public KattisSolver(MemoryStream inStream, Stream outStream)
+        public KattisSolver(Stream inStream, Stream outStream)
         {
             _scanner = new Scanner(inStream);
             _writer = new StreamWriter(outStream);

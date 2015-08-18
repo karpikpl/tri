@@ -35,7 +35,7 @@ namespace Tri
         }
 
         [Test]
-        public void Solver_Should_WorkOnStreams()
+        public void KattisSolver_Should_WorkOnStreams()
         {
             // Arrange
             const string data = "5 3 8";
@@ -54,7 +54,7 @@ namespace Tri
         }
 
         [Test]
-        public void Solver_Should_WorkOnMultipleLinesOfInput()
+        public void KattisSolver_Should_WorkOnMultipleLinesOfInput()
         {
             // Arrange
             string result;
